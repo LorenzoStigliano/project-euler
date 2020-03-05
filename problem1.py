@@ -7,6 +7,6 @@
 def problem1(int_limit):
     return sum([x for x in range(int_limit) if x%5 == 0 or x%3 == 0 ])
 
-print(problem1(10))
-print(problem1(49))
-print(problem1(1000))
+print(problem1(10) == 23)
+print(problem1(49) == 543)
+print(problem1(1000) == 233168)
